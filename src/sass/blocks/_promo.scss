@@ -1,0 +1,11 @@
+.promo {
+    min-height: 100vh;
+    background: $bg_color;
+    &__wrapper {
+        height: 700px;
+        background: url('../img/promo_bg.jpg') center (center / cover) no-repeat;
+        border-bottom: 50px solid #222831;
+        border-image: linear-gradient(#222831, transparent 50%);
+        border-image-slice: 0 0 20% 0;
+    }
+}
