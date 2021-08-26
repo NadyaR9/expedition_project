@@ -1,0 +1,60 @@
+.menu {
+    padding-top: 40px;
+    &__logo {
+        img {
+            width: 100%;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list {
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        width: 435px;
+        justify-content: space-between;
+    }
+    &__item {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        a {
+            color: $text_color; 
+            &:hover {
+                transition: all 0.5s;
+                text-decoration: none;
+                text-shadow: black 2px 4px;
+            }
+        }
+    }
+    &__text {
+        text-align: center;
+        color: $text_color;
+        width: 780px;
+        margin: 0 auto;
+
+    }
+    &__title {
+        width: 745px;
+        margin: 0 auto;
+        margin-top: 130px;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 88px;         
+    }
+    &__subtitle {
+        margin-top: 35px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    &__button {
+        &:hover {
+            transition: 0.5s all;
+            box-shadow: 10px 5px 5px rgba(136, 138, 162, 0.8);
+        }
+    }
+}
