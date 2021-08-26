@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "homepage": "https://NadyaR9.github.io/expedition_project",
   "scripts": {
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
