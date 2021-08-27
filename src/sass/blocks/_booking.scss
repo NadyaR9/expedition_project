@@ -61,13 +61,13 @@
                 border-radius: 10px;
             }
         }
-        #from {
+        .from {
             background: url(../icons/departures.svg) no-repeat 15px 1px;
         }
-        #to {
+        .to {
             background: url(../icons/returning.svg) no-repeat;
         }
-        #from, #to {
+        .from, .to {
             width: 100%;
             padding-left: 75px;
             background-position: left 5% bottom 45%;
